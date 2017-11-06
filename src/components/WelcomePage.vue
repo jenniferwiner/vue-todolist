@@ -16,7 +16,7 @@
 import TodoList from './TodoList'
 
 export default {
-  name: 'Welcome',
+  name: 'WelcomePage',
   components: {
     TodoList
   },

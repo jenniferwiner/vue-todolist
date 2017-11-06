@@ -6,18 +6,18 @@
       placeholder="Add a todo"
     >
     <div>
-      <todo
+      <todo-item
         v-for="(todo, index) in todos"
         v-bind:key="todo.id"
         v-bind:title="todo.title"
         v-on:delete="todos.splice(index, 1)"
-      ></todo>
+      ></todo-item>
     </div>
   </div>
 </template>
 
 <script type="text/javascript">
-  import Todo from './ListItem'
+  import TodoItem from './TodoItem'
 
   export default {
     data() {
@@ -50,7 +50,7 @@
       }
     },
     components: {
-      Todo,
+      TodoItem,
     }
   }
 </script>
