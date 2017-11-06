@@ -3,7 +3,7 @@
     <i class="fa fa-calendar-check-o fa-5x"></i>
     <h1>Vue To-do List</h1>
     <todo-list></todo-list>
-    <h2>Essential Links</h2>
+    <h2>Useful Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2" target="_blank">To-Do List Tutorial</a></li>
