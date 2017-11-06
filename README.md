@@ -1,27 +1,22 @@
-# todo-list
+# Simple Todo List with Vue<span></span>.js
 
-> A Vue.js project
-
-## Build Setup
+> First time using Vue<span></span>.js, adapted from tutorial and docs below
+### Build Setup
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
 ```
+### Useful Links
+- [Vue.js Core Docs](https://vuejs.org)
+- [Todo List Tutorial](https://scotch.io/tutorials/build-a-to-do-app-with-vue-js-2) - built with Vue<span></span>.js 2 so needs modifications for current version (2.5.3)
+- [Vue<span></span>.js Docs - List rendering](https://vuejs.org/v2/guide/list.html#v-for-with-a-Component) - helpful Todo List example
+- [Vue.js Style Guide](https://vuejs.org/v2/style-guide/)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+Don't hesitate to reach out with questions //
+*Jennifer Winer, 2017*
