@@ -4,6 +4,8 @@
 
 <script type="text/javascript">
 export default{
-  props: ['title']
+  props: {
+    title: String
+  }
 }
 </script>
