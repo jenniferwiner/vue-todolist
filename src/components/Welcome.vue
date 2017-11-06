@@ -1,7 +1,7 @@
 <template>
   <div class="welcome">
     <i class="fa fa-calendar-check-o fa-5x"></i>
-    <h1>Vue To-do List</h1>
+    <h1>{{ title }}</h1>
     <todo-list></todo-list>
     <h2>Useful Links</h2>
     <ul>
@@ -18,7 +18,12 @@ import TodoList from './TodoList'
 export default {
   name: 'Welcome',
   components: {
-    TodoList,
+    TodoList
+  },
+  data() {
+    return {
+      title: 'Vue To-do List'
+    }
   }
 }
 
